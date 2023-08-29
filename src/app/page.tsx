@@ -1,5 +1,5 @@
 import Image from "next/image";
 
 export default function Home() {
-  return <main>Food Delivery App</main>;
+  return <main>Food Delivery App - test</main>;
 }
