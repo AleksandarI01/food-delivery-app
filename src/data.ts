@@ -125,3 +125,96 @@ export const menu: Menu = [
     color: "white",
   },
 ];
+
+// all pizzas:
+
+export const pizzas: Products = [
+  {
+    id: 1,
+    title: "Margherita",
+    desc: "margherita description",
+    price: 15,
+    img: "/pizzas/pizza1.png",
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 2,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "2",
+    desc: "2 description",
+    price: 15,
+    img: "/pizzas/pizza2.png",
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 2,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "3",
+    desc: "3 description",
+    price: 15,
+    img: "/pizzas/pizza3.png",
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 2,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "4",
+    desc: "4 description",
+    price: 15,
+    img: "/pizzas/pizza4.png",
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 2,
+      },
+    ],
+  },
+];
+
+// Single Product
+
+export const singleProduct: Product = {
+  id: 1,
+  title: "Margherita",
+  desc: "margherita description",
+  img: "/pizzas/pizza1.png",
+  price: 15,
+  options: [
+    {
+      title: "Small",
+      additionalPrice: 0,
+    },
+    {
+      title: "Medium",
+      additionalPrice: 2,
+    },
+  ],
+};
